@@ -5,23 +5,33 @@ This project predicts the price of laptops based on various features using Pytho
 **Tech Stack & Tools**
 
 Programming Language: Python
+
 Libraries: Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Streamlit
+
 Algorithms: Linear Regression, Random Forest, Gradient Boosting, AdaBoost, Extra Trees Regressor
+
 Pipeline & Preprocessing: ColumnTransformer, OneHotEncoder
+
 GUI Framework: Streamlit (for interactive web UI)
+
 Dataset: Kaggle Laptop Price Dataset
 
 **Features**:
 
 Data cleaning and preprocessing (handling null values, removing duplicates)
+
 Feature engineering (extracting information from complex fields like memory and screen resolution)
+
 Exploratory Data Analysis (EDA) with visualizations
+
 Regression modeling and performance evaluation
+
 Interactive GUI for live predictions
 
 **Dataset**
 
 The dataset includes attributes like:
+
 Company
 TypeName
 RAM
@@ -34,24 +44,39 @@ Price (target variable)
 **Installation & Setup**
 
 Clone the repository: git clone https://github.com/your-username/laptop-price-prediction.git
+
 Navigate to the project directory: cd laptop-price-prediction
+
 Install the required libraries: pip install -r requirements.txt
+
 Run the Streamlit app: streamlit run app.py
 
 **Model Training**
 
 **Preprocessing:**
+
 One-hot encoding for categorical features (like company, CPU brand, and TypeName)
+
 Splitting data into training and testing sets
+
 **Models Tested:**
+
 Linear Regression
+
 Ridge & Lasso Regression
+
 Random Forest Regressor
+
 Gradient Boosting Regressor
+
 AdaBoost Regressor
+
 Extra Trees Regressor
+
 **Evaluation Metrics:**
+
 R² score
+
 Mean Absolute Error (MAE)
 
 **GUI with Streamlit**
@@ -61,19 +86,25 @@ The project includes a Streamlit-based web interface, allowing users to input la
 **Results & Insights**
 
 The model achieved a high R² score, indicating a good fit
+
 RAM, SSD size, and CPU brand were the most influential factors in determining price
 
 **Future Enhancements**
 
 Use more advanced models like XGBoost or CatBoost
+
 Hyperparameter tuning for better performance
+
 Add visualizations to the Streamlit app to show feature importance
 
 **How to Use**
 
 Load the dataset
+
 Clean and preprocess the data
+
 Train the model
+
 Use the Streamlit app to input new laptop specs and get predictions
 
 **Contributing**
