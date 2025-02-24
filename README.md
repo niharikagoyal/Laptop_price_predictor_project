@@ -1,8 +1,8 @@
-**Project Overview**
+📌**Project Overview**
 
 This project predicts the price of laptops based on various features using Python and machine learning regression models. The dataset is sourced from Kaggle, and the model is trained using libraries like scikit-learn, pandas, and NumPy. The goal is to build a model that can accurately estimate laptop prices based on specifications like RAM, storage, processor, and screen size.
 
-**Tech Stack & Tools**
+🛠️ **Tech Stack & Tools**
 
 **Programming Language:** Python
 
@@ -16,7 +16,7 @@ This project predicts the price of laptops based on various features using Pytho
 
 **Dataset:** Kaggle Laptop Price Dataset
 
-**Features**:
+⚙️**Features**:
 
 Data cleaning and preprocessing (handling null values, removing duplicates)
 
@@ -28,7 +28,7 @@ Regression modeling and performance evaluation
 
 Interactive GUI for live predictions
 
-**Dataset**
+📂**Dataset**
 
 The dataset includes attributes like:
 
@@ -48,7 +48,7 @@ Storage (HDD, SSD, Hybrid, Flash Storage)
 
 Price (target variable)
 
-**Installation & Setup**
+🚀**Installation & Setup**
 
 Clone the repository: git clone https://github.com/your-username/laptop-price-prediction.git
 
@@ -58,7 +58,7 @@ Install the required libraries: pip install -r requirements.txt
 
 Run the Streamlit app: streamlit run app.py
 
-**Model Training**
+📊**Model Training**
 
 **Preprocessing:**
 
@@ -86,17 +86,17 @@ R² score
 
 Mean Absolute Error (MAE)
 
-**GUI with Streamlit**
+🖥️**GUI with Streamlit**
 
 The project includes a Streamlit-based web interface, allowing users to input laptop specifications and get instant price predictions. This makes the model more accessible and easier to interact with.
 
-**Results & Insights**
+📝**Results & Insights**
 
 The model achieved a high R² score, indicating a good fit
 
 RAM, SSD size, and CPU brand were the most influential factors in determining price
 
-**Future Enhancements**
+📘**Future Enhancements**
 
 Use more advanced models like XGBoost or CatBoost
 
@@ -104,7 +104,7 @@ Hyperparameter tuning for better performance
 
 Add visualizations to the Streamlit app to show feature importance
 
-**How to Use**
+💡**How to Use**
 
 Load the dataset
 
@@ -114,10 +114,10 @@ Train the model
 
 Use the Streamlit app to input new laptop specs and get predictions
 
-**Contributing**
+🤝**Contributing**
 
 Pull requests are welcome! For major changes, please open an issue to discuss what you’d like to modify.
 
-**License**
+🛡️**License**
 
 This project is licensed under the MIT License.
