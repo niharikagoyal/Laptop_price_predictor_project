@@ -4,17 +4,17 @@ This project predicts the price of laptops based on various features using Pytho
 
 **Tech Stack & Tools**
 
-Programming Language: Python
+**Programming Language:** Python
 
-Libraries: Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Streamlit
+**Libraries:** Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Streamlit
 
-Algorithms: Linear Regression, Random Forest, Gradient Boosting, AdaBoost, Extra Trees Regressor
+**Algorithms:** Linear Regression, Random Forest, Gradient Boosting, AdaBoost, Extra Trees Regressor
 
-Pipeline & Preprocessing: ColumnTransformer, OneHotEncoder
+**Pipeline & Preprocessing:** ColumnTransformer, OneHotEncoder
 
-GUI Framework: Streamlit (for interactive web UI)
+**GUI Framework:** Streamlit (for interactive web UI)
 
-Dataset: Kaggle Laptop Price Dataset
+**Dataset:** Kaggle Laptop Price Dataset
 
 **Features**:
 
@@ -33,12 +33,19 @@ Interactive GUI for live predictions
 The dataset includes attributes like:
 
 Company
+
 TypeName
+
 RAM
+
 Weight
+
 Screen Resolution (with touchscreen detection)
+
 CPU Brand
+
 Storage (HDD, SSD, Hybrid, Flash Storage)
+
 Price (target variable)
 
 **Installation & Setup**
